@@ -1,0 +1,29 @@
+# Rapporten en exports (kunnen klant- of persoonsgegevens bevatten)
+*.csv
+*.xlsx
+*.xls
+*.docx
+*.html
+*.json
+*.log
+*.txt
+*.zip
+
+# Certificaten en sleutels
+*.pfx
+*.p12
+*.cer
+*.pem
+*.key
+
+# Uitvoermappen
+Logs/
+Reports/
+PolicyExport/
+Output/
+
+# Editor/OS
+.vscode/
+*.bak
+Thumbs.db
+.DS_Store
