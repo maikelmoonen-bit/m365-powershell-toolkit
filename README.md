@@ -48,6 +48,8 @@ Gemaakt door **Maikel Moonen** – [Moonen IT Consulting](https://meek-mandazi-f
 ### Licenties
 | Script | Omschrijving |
 |---|---|
+| [Get-DisabledLicenseReports.ps1](Licensing/Get-DisabledLicenseReports.ps1) | Excel-rapport van uitgeschakelde accounts die nog licenties hebben, met een schatting van de maandelijkse en jaarlijkse kosten. Vereist Python 3 met openpyxl. |
+| [Get-EntraLicenseReport.ps1](Licensing/Get-EntraLicenseReport.ps1) | Overzicht van alle actieve licenties met de productnamen uit de Entra-portal, als Word-document en CSV. Word-export vereist Node.js. |
 | [Check-MDILicenses.ps1](Licensing/Check-MDILicenses.ps1) | Inventariseert welke gebruikers een licentie hebben die Microsoft Defender for Identity omvat. |
 | [Invoke-VisioPlan2UsageReport.ps1](Licensing/Invoke-VisioPlan2UsageReport.ps1) | Excel-dashboard van Visio Plan 2-gebruik per gebruiker, om ongebruikte licenties te vinden. |
 
